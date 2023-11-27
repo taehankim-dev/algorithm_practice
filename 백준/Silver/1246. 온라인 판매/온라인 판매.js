@@ -16,7 +16,7 @@ const findAns = () => {
       }
     }
   } else {
-    for(let i = 0; i < M-1; i++){
+    for(let i = 0; i < M; i++){
       let n = sortedP[i] * N;
       if(M - i < N) n = sortedP[i] * (M-i);
       if(n > sum) {
